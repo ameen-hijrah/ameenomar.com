@@ -1,0 +1,16 @@
+# Static site: no build step, publish the repo root.
+[build]
+  publish = "."
+
+# Instagram bio link -> the hijrah readiness quiz
+[[redirects]]
+  from = "/readytohijrah"
+  to = "https://ready.hijrahlife.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/readytohijrah/*"
+  to = "https://ready.hijrahlife.com"
+  status = 301
+  force = true
