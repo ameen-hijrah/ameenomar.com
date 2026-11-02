@@ -14,3 +14,28 @@
   to = "https://ready.hijrahlife.com"
   status = 301
   force = true
+
+# hijrahlife.com (and www) -> ameenomar.com, keeping the path
+[[redirects]]
+  from = "https://hijrahlife.com/*"
+  to = "https://ameenomar.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.hijrahlife.com/*"
+  to = "https://ameenomar.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://hijrahlife.com/*"
+  to = "https://ameenomar.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.hijrahlife.com/*"
+  to = "https://ameenomar.com/:splat"
+  status = 301
+  force = true
